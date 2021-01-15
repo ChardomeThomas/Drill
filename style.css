@@ -1,0 +1,41 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+}
+button{
+  display: block;
+  margin:auto;
+}
+.button, .button2, .button3{
+    background-color: black;
+    border: 2px solid white;
+    color: white;
+    padding: 15px 33px;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top : 50px;
+    top: 200px;
+    left: 50%;
+    transition: 1s;
+  }
+
+  .button:hover {
+    color: black;
+    background-color: white;
+  }
+  .button2:hover {
+    color: black;
+    background-color: white;
+    transform: scale(2.2);
+
+  }
+
+  .button3:hover {
+    color: black;
+    background-color: white;
+    transform: translate(200px);
+  }
